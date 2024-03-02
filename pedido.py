@@ -1,4 +1,5 @@
 from te import Te
+import os
 
 # Solicitud de datos al usuario
 while True:
@@ -28,8 +29,9 @@ tiempo, recomendacion = te.obtener_preparacion(sabor)
 precio = te.obtener_precio(formato)
 
 # Impresión del detalle del pedido
+os.system('cls' if os.name == 'nt' else 'clear') 
 print(f"--- Detalle del pedido ---")
-print(f"Sabor: {te.obtener_sabor_texto(sabor)}") # ¡Usa la instancia 'te'!
+print(f"Sabor: {te.obtener_sabor_texto(sabor)}")
 print(f"Formato: {formato}gr")
 print(f"Precio: ${precio}")
 print(f"Tiempo de preparación: {tiempo} minutos")

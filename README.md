@@ -2,4 +2,4 @@
 
 ## OOP excercise
 
-A basic store order system, using tea
+A basic store order system for a tea store

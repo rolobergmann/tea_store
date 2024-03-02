@@ -12,8 +12,3 @@ tipo_te_verde = type(te_verde)
 print(f"Tipo de te_negro: {tipo_te_negro}")
 print(f"Tipo de te_verde: {tipo_te_verde}")
 
-# Comparación de tipos de datos
-if tipo_te_negro == tipo_te_verde:
-  print("Ambos objetos son del mismo tipo")
-else:
-  print("Los objetos no son del mismo tipo")
